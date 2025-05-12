@@ -3,6 +3,13 @@
   font-family: "Roboto";
 }
 
+@font-face {
+  src: url(./fonts/Tangerine-Regular.ttf);
+  font-family: "Tangerine";
+}
+
+
+
 *,
 *::before,
 *::after {
@@ -16,7 +23,7 @@ p,
 li,
 ul {
   margin: 0;
-  padding: 0;
+ 
 }
 
 body {
@@ -24,7 +31,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f1f3;
+  background-color: #8cb0f8;
 }
 
 a {
@@ -33,4 +40,20 @@ a {
 
 a:hover {
   opacity: 0.8;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

@@ -1,6 +1,12 @@
 .logo {
-    color: #437DFF;
+    color: #00030a;
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
+}
+
+p.logo {
+    font-family: "Tangerine";
+    font-size: 40px;
+    color: rgb(192, 0, 192);
 }
