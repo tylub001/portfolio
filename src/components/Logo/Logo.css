@@ -1,12 +1,29 @@
 .logo {
-    color: #00030a;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 30px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #00030a;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url(../../assets/favicon1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1; 
 }
 
 p.logo {
-    font-family: "Tangerine";
-    font-size: 40px;
-    color: rgb(192, 0, 192);
+  font-family: "Tangerine";
+  font-size: 40px;
+  color: rgb(192, 0, 192);
+  position: relative;
+  z-index: 1;
 }

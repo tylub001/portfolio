@@ -48,7 +48,9 @@
 }
 
 @media (max-width: 600px) {
+.about-us {
+  padding:10px;
+}
 
-  
 }
 

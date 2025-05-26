@@ -12,11 +12,11 @@ function AboutMe() {
           <Link to="hobbies">Hobbies</Link>
         </li>
         <li>
-          <Link to="contact">My Contact Info</Link>
+          <Link to="contact">Learn More!</Link>
         </li>
       </ul>
       <p>
-       Brittany Tylutke ~ Software Engineer
+     
       </p>
       <Outlet />
     </div>

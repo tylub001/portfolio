@@ -2,12 +2,16 @@
   padding: 60px 40px;
 }
 
-.about-content p {
-  font-size: 20px;
+.about-content {
   max-width: 900px;
   line-height: 1.5;
   text-align: center;
-  color:rgb(47, 25, 59)
+}
+
+.article {
+  color: blueviolet;
+  padding-top: 20px;
+  font-weight: 600;
 }
 
 @media (max-width: 600px) {
