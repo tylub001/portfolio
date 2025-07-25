@@ -13,7 +13,7 @@ function Reviews() {
     {
       id: 2,
       title: "Weather App",
-      url: "https://www.btwdwr-demo.jumpingcrab.com/",
+      url: "https://btwdwr.jumpingcrab.com/",
     },
   
     {
